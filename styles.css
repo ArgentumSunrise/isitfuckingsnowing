@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@font-face {
+    font-family: Joe;
+    src: url(fonts/Slim-Joe.otf);
+}
+
+@font-face {
+    font-family: John;
+    src: url(fonts/Big-John.otf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#outer {
+    width: 100%;
+    height: 100%;
+    line-height: 1.6;
+    position: absolute;
+    display: table;
+}
+
+#inner {
+    font-family: John;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#inner:after {
+    display: none;
+    content: url(imgs/no-snow.png);
+}
+
+@media only screen and (max-device-width: 1024px) {
+    #inner h1 {
+        display: none;
+    }
+    #inner:after {
+        display: inline;
+    }
+}
