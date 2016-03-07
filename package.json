@@ -1,0 +1,23 @@
+{
+  "name": "isitfuckingsnowing",
+  "version": "1.0.0",
+  "description": "A website that tells you if it's fucking snowing.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArgentumSunrise/isitfuckingsnowing.git"
+  },
+  "author": "Colter Giem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArgentumSunrise/isitfuckingsnowing/issues"
+  },
+  "homepage": "https://github.com/ArgentumSunrise/isitfuckingsnowing#readme",
+  "dependencies": {
+    "sugar": "^1.4.1",
+    "weather.js": "file:weather"
+  }
+}
