@@ -52,6 +52,12 @@ body {
     content: url(imgs/no-snow.png);
 }
 
+#inner.changed:after {
+    /* this selector is more specific, so it takes precedence over the other :after */
+    
+    content: url(imgs/snow.png);
+}
+
 @media only screen and (max-device-width: 1024px) {
     #inner h1 {
         display: none;
