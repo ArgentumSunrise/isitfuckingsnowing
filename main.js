@@ -1,5 +1,5 @@
     var codeArray = [13, 14, 15, 16, 41, 42, 43, 46];
-    var APPID = ''; // Your Yahoo Application ID
+    var APPID = 'dj0yJmk9TjVLTXRsb0tpNTlLJmQ9WVdrOWEyUmhaWEJoTm5FbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1lOA--'; // Your Yahoo Application ID
     var DEG = 'c'; // c for celsius, f for fahrenheit
 
     $(document).ready(function () {
